@@ -1,0 +1,20 @@
+.navbar-dark {
+    background-color:green;
+ }
+ .jumbotron {
+     background-color: lightgreen;
+     width: auto;
+     height: 100px;
+     font-family: "Times New Roman", Times, serif;
+ }
+ 
+ #contactLinks{
+     background-color: aquamarine;
+     width: fit-content;
+     height: fit-content;
+     padding: 50px;
+ }
+ #playerCardTitle{
+     background-color: azure
+ }
+

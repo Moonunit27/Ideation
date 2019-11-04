@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/styles.css">
+
+
+<link href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+
+
+    <title> Sequence </title>
+    <i class="fas fa-camera"></i>
+</head>
+<body>
+    <nav class= "navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" href="#">
+                
+            </a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto offset-1">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">
+                            <span class="fa fa-home fa-lg"></span>Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="info.html">
+                                <i class="fas fa-info"></i>Info 
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">
+                        <span class="fa fa-phone fa-lg"></span>Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron">
+            <div class="container">
+                <div class="row row-header">
+                    <div class="col-sm-12">
+                            <h1 style="text-align:center">Sequence</h1>
+                    </div>                
+                </div>   
+            </div>
+        </header>
+
+       
+                        <div class="container">
+                            <div class="row">
+                              <div class="col-sm">
+                                <div class="row" id="r1">
+                                    <div><input onmousedown="makeMove(event)" type='image' src='img/green_back.png' width='45' height='60'id='00' value='submit' /></div>
+                                    <div><input onmousedown="makeMove(event)" type='image' src='img/AC.png' width='45' height='60'  id='01' value='submit' /></div>
+                                    <div><input onmousedown="makeMove(event)" type='image' src='img/KC.png' width='45' height='60'  id='02' value='submit' /></div>
+                                    <div><input onmousedown="makeMove(event)" type='image' src='img/QC.png' width='45' height='60'  id='03' value='submit' /></div>
+                                    <div><input onmousedown="makeMove(event)" type='image' src='img/10C.png' width='45' height='60' id='04' value='submit' /></div>
+                                    <div><input onmousedown="makeMove(event)" type='image' src='img/9C.png' width='45' height='60' id='05' value='submit' /></div>
+                                    <div><input onmousedown="makeMove(event)" type='image' src='img/8C.png' width='45' height='60' id='06' value='submit' /></div>
+                                    <div><input onmousedown="makeMove(event)" type='image' src='img/7C.png' width='45' height='60' id='07' value='submit' /></div>
+                                    <div><input onmousedown="makeMove(event)" type='image' src='img/6C.png' width='45' height='60' id='08' value='submit' /></div>
+                                    <div><input onmousedown="makeMove(event)"type='image' src='img/green_back.png' width='45' height='60'id='09' value='submit' /></div>
+                                </div>
+
+                                <div class="row" id="r2">
+                                        <div><input onmousedown="makeMove(event)" type='image' src='img/AD.png' width='45' height='60' id='10' value='submit' /></div>
+                                        <div><input onmousedown="makeMove(event)" type='image' src='img/7S.png' width='45' height='60'  id='11' value='submit' /></div>
+                                        <div><input onmousedown="makeMove(event)" type='image' src='img/8S.png' width='45' height='60'  id='12' value='submit' /></div>
+                                        <div><input onmousedown="makeMove(event)" type='image' src='img/9S.png' width='45' height='60'  id='13' value='submit' /></div>
+                                        <div><input onmousedown="makeMove(event)" type='image' src='img/10S.png' width='45' height='60' id='14' value='submit' /></div>
+                                        <div><input onmousedown="makeMove(event)" type='image' src='img/QS.png' width='45' height='60' id='15' value='submit' /></div>
+                                        <div><input onmousedown="makeMove(event)" type='image' src='img/KS.png' width='45' height='60' id='16' value='submit' /></div>
+                                        <div><input onmousedown="makeMove(event)" type='image' src='img/AS.png' width='45' height='60' id='17' value='submit' /></div>
+                                        <div><input onmousedown="makeMove(event)" type='image' src='img/5C.png' width='45' height='60' id='18' value='submit' /></div>
+                                        <div><input onmousedown="makeMove(event)"type='image' src='img/2S.png' width='45' height='60' id='19' value='submit' /></div>
+                                    </div>
+
+                                <div class="row" id="r3">
+                                        <div><input onmousedown="makeMove(event)" type='image' src='img/KD.png' width='45' height='60' id='20' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/6S.png' width='45' height='60'  id='21' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/10C.png' width='45' height='60'  id='22' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/9C.png' width='45' height='60'  id='23' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/8C.png' width='45' height='60' id='324' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/7C.png' width='45' height='60' id='25' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/6C.png' width='45' height='60' id='26' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/2D.png' width='45' height='60' id='27' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/4C.png' width='45' height='60' id='28' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)"type='image' src='img/3S.png' width='45' height='60'  id='29' value='submit' /></div>
+                                </div>
+
+                                <div class="row" id="r4">
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/QD.png' width='45' height='60' id='30' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/5S.png' width='45' height='60'  id='31' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/QC.png' width='45' height='60'  id='32' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/8H.png' width='45' height='60'  id='33' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/7H.png' width='45' height='60' id='34' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/6H.png' width='45' height='60' id='35' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/5C.png' width='45' height='60' id='36' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/3D.png' width='45' height='60' id='37' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/3C.png' width='45' height='60' id='38' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)"type='image' src='img/4S.png' width='45' height='60'  id='39' value='submit' /></div>
+                                </div>
+                                <div class="row" id="r5">
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/10D.png' width='45' height='60' id='40' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/4S.png' width='45' height='60'  id='41' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/KC.png' width='45' height='60'  id='42' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/9H.png' width='45' height='60'  id='43' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/2H.png' width='45' height='60' id='44' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/5H.png' width='45' height='60' id='45' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/4C.png' width='45' height='60' id='46' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/4D.png' width='45' height='60' id='47' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/2C.png' width='45' height='60' id='48' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)"type='image' src='img/5S.png' width='45' height='60'  id='49' value='submit' /></div>
+                                </div>
+                                <div class="row" id="r6">
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/9D.png' width='45' height='60' id='50' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/3C.png' width='45' height='60'  id='51' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/AC.png' width='45' height='60'  id='52' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/10H.png' width='45' height='60' id='53' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/3H.png' width='45' height='60' id='54' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/4H.png' width='45' height='60' id='55' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/3C.png' width='45' height='60' id='56' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/5D.png' width='45' height='60' id='57' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/AH.png' width='45' height='60' id='58' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)"type='image' src='img/6S.png' width='45' height='60'  id='59' value='submit' /></div>
+                                </div>
+
+                                <div class="row" id="r7">
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/8D.png' width='45' height='60' id='60' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/2S.png' width='45' height='60'  id='61' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/AD.png' width='45' height='60'  id='62' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/QH.png' width='45' height='60'  id='63' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/KH.png' width='45' height='60' id='64' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/AH.png' width='45' height='60' id='65' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/2C.png' width='45' height='60' id='66' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/6D.png' width='45' height='60' id='67' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/KH.png' width='45' height='60' id='68' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)"type='image' src='img/7S.png' width='45' height='60'  id='69' value='submit' /></div>
+                                </div>
+                                <div class="row" id="r8">
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/7D.png' width='45' height='60' id='70' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/2H.png' width='45' height='60'  id='71' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/KD.png' width='45' height='60'  id='72' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/QD.png' width='45' height='60'  id='73' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/10D.png' width='45' height='60' id='74' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/9D.png' width='45' height='60' id='75' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/8D.png' width='45' height='60' id='76' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/7D.png' width='45' height='60' id='77' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/QH.png' width='45' height='60' id='78' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)"type='image' src='img/8S.png' width='45' height='60'  id='79' value='submit' /></div>
+                                </div>
+                                <div class="row" id="r9">
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/6D.png' width='45' height='60' id='80' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/3H.png' width='45' height='60'  id='81' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/4H.png' width='45' height='60'  id='82' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/5H.png' width='45' height='60'  id='83' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/6H.png' width='45' height='60' id='84' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/7H.png' width='45' height='60' id='85' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/8H.png' width='45' height='60' id='86' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/9H.png' width='45' height='60' id='87' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/10H.png' width='45' height='60' id='88' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)"type='image' src='img/9S.png' width='45' height='60'  id='89' value='submit' /></div>
+                                </div>
+                                <div class="row" id="r10">
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/green_back.png' width='45' height='90' id='' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/5D.png' width='45' height='60'  id='91' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/4D.png' width='45' height='60'  id='92' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/3D.png' width='45' height='60'  id='93' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/2D.png' width='45' height='60' id='94' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/AS.png' width='45' height='60' id='95' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/KS.png' width='45' height='60' id='96' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/QS.png' width='45' height='60' id='97' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/10S.png' width='45' height='60' id='98' value='submit' /></div>
+                                        <div ><input onmousedown="makeMove(event)" type='image' src='img/green_back.png' width='45' height='60'id='99' value='submit' /></div>
+                                </div>
+                            </div>
+                                <div class="col-sm-7">
+                                    <div class="card" id="playerCardTitle" style="text-align:center"> Player Cards </div>
+                                <div class="card">
+                                    <div class="card-deck">
+                                        <div class="card bg-light">
+                                            <input onmousedown="makeMove(event)" type='image' src='#' width='45' height='90' id='P1' value='submit' />
+                                        </div>
+                                        <div class="card bg-light">
+                                            <input onmousedown="makeMove(event)" type='image' src='#' width='45' height='90' id='P2' value='submit' />
+                                        </div>
+                                        <div class="card bg-light">
+                                            <input onmousedown="makeMove(event)" type='image' src='#' width='45' height='90' id='P3' value='submit' />
+                                        </div>
+                                        <div class="card bg-light">
+                                            <input onmousedown="makeMove(event)" type='image' src='#' width='45' height='90' id='P4' value='submit' />
+                                        </div>
+                                        <div class="card bg-light">
+                                            <input onmousedown="makeMove(event)" type='image' src='#' width='45' height='90' id='P5' value='submit' />
+                                        </div>
+                                        <div class="card bg-light">
+                                            <input onmousedown="makeMove(event)" type='image' src='#' width='45' height='90' id='P6' value='submit' />
+                                        </div>
+                                        <div class="card bg-light">
+                                            <input onmousedown="makeMove(event)" type='image' src='#' width='45' height='90' id='P7' value='submit' />
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+        
+       
+            <script>
+
+                var movesArray = []
+                var cardsArray = new Array(104); 
+             
+                function makeMove(event) 
+                {
+                    var gameOver = false
+                    element = event.target
+                    rowColumn= element.id.split(" ");
+                    movesArray.push(rowColumn); 
+                    movesArray.sort()
+
+                    function checkMove(moveCount) {movesArray.length  % 2;}
+                        moveCount = movesArray.length % 2;
+        
+                    if (movesArray.length % 2 == 0) { 
+           
+                        player1Move()
+                    }
+                    if (movesArray.length % 2 == 1)
+                    {
+                        player2Move()  
+                    }     
+                }      
+                
+                    function player1Move(){
+                    var local = element
+                    var p1Array= [] 
+                    console.log("Reds turn")
+                    randomCard()
+                    }
+                    function player2Move(){
+                    var p2Array= []
+                    console.log("Blues turn")
+                    randomCard()
+                    }
+                
+                  function randomCard(){
+                    var playerCards = []
+                    element = event.target
+                    console.log(document.getElementById(element.id).id)
+                    var pCard =Math.floor((Math.random() * 5) + 0);
+                    
+                    console.log (pCard)
+                    if ((pCard == document.getElementById(element.id).id) && movesArray.length %2 == 0){
+                        document.getElementById(element.id).style.cssText = 'border: 5px solid red;';
+                    }
+                    else if ((pCard == document.getElementById(element.id).id) && movesArray.length %2 == 1){
+
+                        document.getElementById(element.id).style.cssText = 'border: 5px solid blue;'; 
+                    }
+                    else{
+                        console.log('You do not have the appropriate card')
+                        setTimeout(function(){
+                     console.clear()
+                     },1000);
+                    }
+                    }
+                
+                </script>
+                
+
+</body>
+</html>
